@@ -9,8 +9,8 @@ let amigos = [];
 
 //funcion para agregar amigos al juego
 function agregarAmigo() {
-    const input = document.getElementById("amigo");
-    const nombre = input.value.trim();
+    let input = document.getElementById("amigo");
+    let nombre = input.value.trim();
 
     if (nombre === "") {
         alert("Por favor, inserte un nombre.");
